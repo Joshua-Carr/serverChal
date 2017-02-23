@@ -65,13 +65,14 @@ table {
 }
 .contentName {
 	padding: 10px;
-	padding-left: 20px;
-	width: 25%;
+	padding-left: 20%;
+	width: 200px;
 	font-weight:bold;
 	vertical-align: top;
 }
 .contentDetails {
 	padding: 10px;
+	width: 200px;
 }
 .contentAction {
 	width: 10%;
@@ -174,7 +175,36 @@ tr:hover .deleteBtn {
 }
 .uploadBox {
   margin: 0 auto;
-  text-align: center;
+    width: 157px;
+    height: 57px;
+    background: url("../images/cam.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.uploadBox input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+
+.uploadBox1 {
+  margin: 0 auto;
+    width: 157px;
+    height: 57px;
+    background: url(https://lh6.googleusercontent.com/-dqTIJRTqEAQ/UJaofTQm3hI/AAAAAAAABHo/w7ruR1SOIsA/s157/upload.png);
+    overflow: hidden;
+}
+
+.uploadBox1 input {
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
 }
 .appinfo {
 	padding: 10px;
